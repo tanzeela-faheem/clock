@@ -1,13 +1,12 @@
 #clockcontainer{
     position: relative;
     margin: auto;
-    border: 5px solid rgb(219, 89, 219);
     height: 40vw;
     width: 40vw;
     background: url(Clock.png);
     background-size: 100%;
 }
-#hour,#minute,#second{
+#hour,#minute,#seconds{
     position: absolute;
     background: black;
     border-radius: 10px;
@@ -16,7 +15,7 @@
 #hour{
     width: 1.8%;
     height:22%;
-    top:29%;
+    top:28%;
     left: 49.5%;
     opacity: 0.9;
     transform-origin: bottom;
@@ -29,7 +28,7 @@
     opacity: 0.9;
     transform-origin: bottom;
 }
-#second{
+#seconds{
     width: 0.7%;
     height:39%;
     top:12%;

@@ -3,13 +3,13 @@ setInterval(() => {
     htime = d.getHours();
     mtime= d.getMinutes();
     stime= d.getSeconds();   
-     hrot= 30*htime + mtime/2;
-     mrot= 6*mtime;
-     srot=  6*stime;
+     hrotation= 30*htime + mtime/2;
+     mrotation= 6*mtime;
+     srotation=  6*stime;
      
-     hour.style.transform = `rotate(${hrot}deg)`;
-     minute.style.transform = `rotate(${mrot}deg)`;
-     seconds.style.transform = `rotate(${srot}deg)`;
+     hour.style.transform = `rotate(${hrotation}deg)`;
+     minute.style.transform = `rotate(${mrotation}deg)`;
+     seconds.style.transform = `rotate(${srotation}deg)`;
     
 
 }, 100);
